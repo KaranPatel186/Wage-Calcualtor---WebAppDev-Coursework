@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mainCss.css">
+    <title>Pay Calclator</title>
+</head>
+
+<nav>
+    <a href="index.html">Home</a>
+
+    <a href="pay.html">Pay Calclator</a>
+    <a href="jobinfo.html">Jobs Info</a>
+    <a href="about.html">About Us</a>
+</nav>
+
+<body>
+
+    <h1>
+        Pay Calclator
+    </h1>
+
+
+    <form action="submit" method="POST">
+
+
+        <div class="inputbox">
+            <input type="number" name="wage" id="wage" placeholder="Weekly Pay..." />
+        </div>
+
+        <div class="inputbox">
+            <input type="number" name="hours" id="hours" placeholder="Hours Worked.." />
+        </div>
+
+        <div class="inputbox">
+            <br> Calcuate wage per:
+            <br>
+            <select id="timeScale" name="timeScale">
+                  <option value="Yearly">Year</option>
+                  <option value="Monthly">Month</option>
+                  <option value="Weekly">Week</option>
+                  <option value="Hourly">Hour</option>
+                </select>
+        </div>
+
+        <div class="inputbox">
+            <button type="button" onclick="payCalc(wage, hours, timeScale)">Submit</button>
+        </div>
+
+
+        <div class="inputbox">
+            <p id="result"></p>
+        </div>
+
+    </form>
+    </div>
+</body>
+
+<script src="paycalcScript.js"></script>
+
+</html>

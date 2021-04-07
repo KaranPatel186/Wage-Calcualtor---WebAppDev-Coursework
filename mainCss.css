@@ -1,0 +1,63 @@
+html {
+    background-color: rgba(43, 164, 185, 0.096);
+}
+
+nav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.856);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+nav a {
+    padding: 6px 8px 16px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #b8b8b8;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+    color: white
+}
+
+.inputbox {
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+h1 {
+    padding-left: 200px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textbox {
+    padding-left: 230px;
+}
+
+input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgba(43, 164, 185, 0);
+}
+
+select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgba(43, 164, 185, 0);
+}
